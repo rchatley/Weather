@@ -10,8 +10,6 @@ import com.weather.Forecaster;
  */
 public class ForecasterAdapter implements Forecasters{
 
-    private Forecaster forecaster;
-
     @Override
     public Forecast forecastFor(Region r, Day d) {
         return new Forecaster().forecastFor(r, d);
